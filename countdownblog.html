@@ -28,14 +28,13 @@
     <script type="text/javascript">
        
 
-// Code Credit Goes To Yt - Tech VJ / GitHub - VJBots / Telegram - VJ_Botz
  document.addEventListener("DOMContentLoaded", function() {
-            // Check if the URL contains the 'Tech_VJ' parameter
+            // Check if the URL contains the 'KGN_BOTZ' parameter
             const urlParams = new URLSearchParams(window.location.search);
             const linkParam = urlParams.get('Tech_VJ');
             const countdownElement = document.getElementById('countdown');
 
-            // If the Tech_VJ parameter exists, start the countdown and redirect
+            // If the KGN_BOTZ parameter exists, start the countdown and redirect
             if (linkParam) {
                 let countdown = 10;
                 countdownElement.textContent = countdown;
@@ -47,20 +46,19 @@
                     // When countdown reaches 0, redirect to link
                     if (countdown <= 0) {
                         clearInterval(countdownInterval);
-                        const telegramUrl = "https://telegram.me/DemoVJRobot?start=" + linkParam;
+                        const telegramUrl = "https://telegram.me/KGN_File_Store_Bot?start=" + linkParam;
                         window.location.href = telegramUrl;
                     }
                 }, 1000);
             }
         });
 
-// Code Credit Goes To Yt - Tech VJ / GitHub - VJBots / Telegram - VJ_Botz
     </script>
 </head>
 <body>
     <h1>Redirecting To Your Link</h1>
-    <p><b>Subscribe Below YouTube Channel</b></p>
-    <a class="mixed-color" href="https://youtube.com/@Tech_VJ">Subscribe Here</a>
+    <p><b>Join Our Anime Channel</b></p>
+    <a class="mixed-color" href="https://t.me/chrunchyrool">JOIN FROM HERE</a>
     <p><b>Redirecting In <span class="mixed-color" id="countdown">2</span> Seconds...</b></p>
 </body>
 </html>
